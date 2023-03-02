@@ -3,22 +3,32 @@
 
 1. 
 SELECT p.Name, p.Color, p.Size
+
 FROM Production.Product AS p
 
 2.
 SELECT p.Name, p.Color, p.Size
+
 FROM Production.Product AS p
+
 WHERE p.ListPrice > 100
 
 3. 
+
 SELECT p.Name, p.Color, p.Size
+
 FROM Production.Product AS p
+
 WHERE p.ListPrice > 100 AND p.Color = 'Black'
 
 4.
+
 SELECT p.Name, p.Color, p.Size
+
 FROM Production.Product AS p
+
 WHERE p.ListPrice > 100 AND p.Color = 'Black'
+
 ORDER BY ListPrice ASC
 
 5.
